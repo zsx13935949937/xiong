@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>swiper轮播合集</title>
+		<link rel="stylesheet" type="text/css" href="./css/swiper.css"/>
+		<script src="js/swiper.min.js" type="text/javascript" charset="utf-8"></script>
+		<style type="text/css">
+			*{margin: 0; padding: 0;}
+			 p{text-align: center;}
+			 img{ width: 43.75rem;
+				 height: 18.125rem;
+			}
+			 .swiper-container{
+				 width: 43.75rem;
+				 height: 18.125rem;
+				 margin:0 auto;
+			 }
+			 .swiper-button-next {
+			   right: 20px;
+			   left: auto;
+			 }
+			 .swiper-button-prev {
+			   left: 20px;
+			   right: auto;
+			 }
+			 /* css定义分页，导航按钮颜色 */
+			 #case5{
+			     --swiper-theme-color: #ff6600;
+			     --swiper-pagination-color: #00ff33;/* 两种都可以 */
+			   }
+			 #case6 img,#case7 img{transform: scale(0.7);}
+			 #case7{
+				 width:auto;
+			 }
+		</style>
+	</head>
+	<body>
+		   <p>水平切换</p>
+				<div class="swiper-container" id="case1">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png" ></div>
+					<div class="swiper-slide"><img src="img/t2.png" ></div>
+					<div class="swiper-slide"><img src="img/t4.png" ></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+		    
+			<p>垂直切换</p>
+				<div class="swiper-container" id="case2">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png" ></div>
+					<div class="swiper-slide"><img src="img/t2.png" ></div>
+					<div class="swiper-slide"><img src="img/t4.png" ></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+				
+			<p>视差轮播</p>
+				<div class="swiper-container" id="case3">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+					<div class="swiper-slide"><img src="img/t2.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+					<div class="swiper-slide"><img src="img/t3.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+					<div class="swiper-slide"><img src="img/t4.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+					<div class="swiper-slide"><img src="img/t5.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+					<div class="swiper-slide"><img src="img/t6.png" data-swiper-parallax-scale="0.15" data-swiper-parallax-opacity="0.5"></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+				
+			<p>幻灯片</p>
+				<div class="swiper-container" id="case4">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png" ></div>
+					<div class="swiper-slide"><img src="img/t2.png" ></div>
+					<div class="swiper-slide"><img src="img/t3.png" ></div>
+					<div class="swiper-slide"><img src="img/t4.png" ></div>
+					<div class="swiper-slide"><img src="img/t5.png" ></div>
+					<div class="swiper-slide"><img src="img/t6.png" ></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+	
+	       <p>渐变轮播</p>
+				<div class="swiper-container" id="case5">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png" data-swiper-parallax-scale="1.15"></div>
+					<div class="swiper-slide"><img src="img/t2.png" data-swiper-parallax-scale="1.15"></div>
+					<div class="swiper-slide"><img src="img/t3.png" data-swiper-parallax-scale="1.15"></div>
+					<div class="swiper-slide"><img src="img/t4.png" data-swiper-parallax-scale="1.15"></div>
+					<div class="swiper-slide"><img src="img/t5.png" data-swiper-parallax-scale="1.15"></div>
+					<div class="swiper-slide"><img src="img/t6.png" data-swiper-parallax-scale="1.15"></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+	       
+		   <p>立方轮播</p>
+				<div class="swiper-container" id="case6">
+				  <div class="swiper-wrapper">
+					<div class="swiper-slide"><img src="img/t1.png"></div>
+					<div class="swiper-slide"><img src="img/t2.png"></div>
+					<div class="swiper-slide"><img src="img/t3.png"></div>
+					<div class="swiper-slide"><img src="img/t4.png"></div>
+					<div class="swiper-slide"><img src="img/t5.png"></div>
+					<div class="swiper-slide"><img src="img/t6.png"></div>
+				  </div>
+				  <!-- 导航按钮 上一页下一页 -->
+				  <div class="swiper-button-prev"></div>
+				  <div class="swiper-button-next"></div>
+				  <!-- 分页器 -->
+				  <div class="swiper-pagination"></div>
+				  <!-- 滚动条 -->
+				   <div class="swiper-scrollbar"></div>
+				</div>
+		
+		  <p>覆盖流3d切换</p>
+		  				<div class="swiper-container" id="case7">
+		  				  <div class="swiper-wrapper">
+		  					<div class="swiper-slide"><img src="img/t1.png" ></div>
+		  					<div class="swiper-slide"><img src="img/t2.png" ></div>
+		  					<div class="swiper-slide"><img src="img/t4.png" ></div>
+		  				  </div>
+		  				  <!-- 导航按钮 上一页下一页 -->
+		  				  <div class="swiper-button-prev"></div>
+		  				  <div class="swiper-button-next"></div>
+		  				  <!-- 分页器 -->
+		  				  <div class="swiper-pagination"></div>
+		  				  <!-- 滚动条 -->
+		  				   <div class="swiper-scrollbar"></div>
+		  				</div>
+		 <p>翻转轮播</p>
+		 				<div class="swiper-container" id="case8">
+		 				  <div class="swiper-wrapper">
+		 					<div class="swiper-slide"><img src="img/t1.png" ></div>
+		 					<div class="swiper-slide"><img src="img/t2.png" ></div>
+		 					<div class="swiper-slide"><img src="img/t3.png" ></div>
+		 				  </div>
+		 				  <!-- 导航按钮 上一页下一页 -->
+		 				  <div class="swiper-button-prev"></div>
+		 				  <div class="swiper-button-next"></div>
+		 				  <!-- 分页器 -->
+		 				  <div class="swiper-pagination"></div>
+		 				  <!-- 滚动条 -->
+		 				   <div class="swiper-scrollbar"></div>
+		 				</div>	
+	<script type="text/javascript">
+		<!--水平切换  -->
+		var mySwiper = new Swiper('#case1', {
+			autoplay: true,//可选选项，自动滑动
+			initialSlide :1,//默认显示第二张图片索引从0开始
+			speed:2000,//设置过度时间
+			/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+			 autoplay : {
+				delay:3000
+			  },                 /*  设置每隔3000毫秒切换 */
+			<!-- 分页器 -->
+			 pagination: {
+				  el: '.swiper-pagination',
+				  clickable :true,
+				},
+			<!-- 导航按钮 上一页下一页 -->
+			 navigation: {
+				  nextEl: '.swiper-button-next',
+				  prevEl: '.swiper-button-prev',
+				},
+			<!-- 滚动条 -->
+			 scrollbar: {
+				  el: '.swiper-scrollbar',
+				  hide:true,
+				},
+			/*  设置当鼠标移入图片时是否停止轮播*/
+			autoplay: {
+				disableOnInteraction: false,
+			  },
+		});
+		 /* 垂直切换 */
+		var mySwiper2 = new Swiper("#case2",{
+			direction : 'vertical', //垂直轮播
+			autoplay: true,//可选选项，自动滑动
+			initialSlide :1,//默认显示第二张图片索引从0开始
+			speed:2000,//设置过度时间
+			/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+			 autoplay : {
+				delay:3000
+			  },                 /*  设置每隔3000毫秒切换 */
+			<!-- 分页器 -->
+			 pagination: {
+				  el: '.swiper-pagination',
+				  clickable :true,
+				},
+			<!-- 导航按钮 上一页下一页 -->
+			 navigation: {
+				  nextEl: '.swiper-button-next',
+				  prevEl: '.swiper-button-prev',
+				},
+			<!-- 滚动条 -->
+			 scrollbar: {
+				  el: '.swiper-scrollbar',
+				  hide:true,
+				},
+		});
+		/* 视差轮播 */
+		var mySwiper3 = new Swiper("#case3",{
+			loop : true,       //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+			parallax : true,//视差位移动画
+			autoplay: true,//可选选项，自动滑动
+			initialSlide :0,//默认显示第二张图片索引从0开始
+			speed:2000,//设置过度时间
+			/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+			 autoplay : {
+				delay:3000
+			  },                 /*  设置每隔3000毫秒切换 */
+			<!-- 分页器 -->
+			 pagination: {
+				  el: '.swiper-pagination',
+				  clickable :true,
+				},
+			<!-- 导航按钮 上一页下一页 -->
+			 navigation: {
+				  nextEl: '.swiper-button-next',
+				  prevEl: '.swiper-button-prev',
+				},
+			<!-- 滚动条 -->
+			 scrollbar: {
+				  el: '.swiper-scrollbar',
+				  hide:true,
+				},
+		});
+	    /* 幻灯片轮播*/
+	    var mySwiper4 = new Swiper("#case4",{
+		loop : true,       //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+	    slidesPerView :3,   // 设置显示三张
+	    centeredSlides : true,     //使当前图片居中显示
+	    centeredSlidesBounds: true,    //使左右两边的图片始终贴合边缘
+		/* slidesOffsetBefore : 100,  //偏移，使第一张图片向右偏移100px */
+	   	autoplay: true,//可选选项，自动滑动
+	   	initialSlide :0,//默认显示第二张图片索引从0开始
+	   	speed:2000,//设置过度时间
+	   	/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+	   	 autoplay : {
+	   		delay:1000
+	   	  },                 /*  设置每隔3000毫秒切换 */
+	   	<!-- 分页器 -->
+	   	 pagination: {
+	   		  el: '.swiper-pagination',
+	   		  clickable :true,
+	   		},
+	   	<!-- 导航按钮 上一页下一页 -->
+	   	 navigation: {
+	   		  nextEl: '.swiper-button-next',
+	   		  prevEl: '.swiper-button-prev',
+	   		},
+	   	<!-- 滚动条 -->
+	   	 scrollbar: {
+	   		  el: '.swiper-scrollbar',
+	   		  hide:true,
+	   		},
+	   });
+		/*渐变轮播 */
+	    var mySwiper = new Swiper('#case5', {
+			loop : true,        //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+			parallax : true,   //视差位移动画
+			effect : 'fade',  //轮播效果，fade渐变
+	    	autoplay: true,  //可选选项，自动滑动
+	    	initialSlide :1,//默认显示第二张图片索引从0开始
+	    	speed:3000,//设置过度时间
+	    	/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+	    	 autoplay : {
+	    		delay:3000
+	    	  },                 /*  设置每隔3000毫秒切换 */
+	    	<!-- 分页器 -->
+	    	 pagination: {
+	    		  el: '.swiper-pagination', 
+	    		  clickable :true,        /* 可点击切换 */
+				  dynamicBullets: true,   /* 动力球样式 */
+	    		},
+	    	<!-- 导航按钮 上一页下一页 -->
+	    	 navigation: {
+	    		  nextEl: '.swiper-button-next',
+	    		  prevEl: '.swiper-button-prev',
+	    		},
+	    	<!-- 滚动条 -->
+	    	 scrollbar: {
+	    		  el: '.swiper-scrollbar',
+	    		  hide:true,
+	    		},
+	    	/*  设置当鼠标移入图片时是否停止轮播*/
+	    	autoplay: {
+	    		disableOnInteraction: false,
+	    	  },
+			  
+	    });
+	    /* 立方轮播 */
+	    var mySwiper = new Swiper('#case6', {
+			keyboard : true,     //启用键盘左右切换
+			loop : true,        //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+			parallax : true,   //视差位移动画
+	    	effect : 'cube',  //轮播效果，cube立方轮播
+	    	autoplay: true,  //可选选项，自动滑动
+	    	initialSlide :0,//默认显示第二张图片索引从0开始
+	    	speed:3000,//设置过度时间
+	    	/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+	    	 autoplay : {
+	    		delay:3000
+	    	  },                 /*  设置每隔3000毫秒切换 */
+	    	<!-- 分页器 -->
+	    	 pagination: {
+	    		  el: '.swiper-pagination', 
+	    		  clickable :true,        /* 可点击切换 */
+	    		  dynamicBullets: true,   /* 动力球样式 */
+	    		},
+	    	<!-- 导航按钮 上一页下一页 -->
+	    	 navigation: {
+	    		  nextEl: '.swiper-button-next',
+	    		  prevEl: '.swiper-button-prev',
+				  hideOnClick: true,
+	    		},
+	    	<!-- 滚动条 -->
+	    	 scrollbar: {
+	    		  el: '.swiper-scrollbar',
+	    		  hide:true,
+	    		},
+	    	/*  设置当鼠标移入图片时是否停止轮播*/
+	    	autoplay: {
+	    		disableOnInteraction: false,
+	    	  },
+		  /* 立方轮播属性 */
+			cubeEffect: {
+				slideShadows: true,
+				shadow: true,
+				shadowOffset: 100,
+				shadowScale: 0.6
+				},
+	    });
+	   /* 覆盖流3d切换 */
+		var mySwiper = new Swiper('#case7', {
+	    	loop : true,        //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+	    	effect : 'coverflow',  //轮播效果，coverflow覆盖流效果
+			slidesPerView :2, 
+			centeredSlides: true,
+	    	autoplay: true,  //可选选项，自动滑动
+	    	initialSlide :1,//默认显示第二张图片索引从0开始
+	    	speed:3000,//设置过度时间
+	    	/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+	    	 autoplay : {
+	    		delay:3000
+	    	  },                 /*  设置每隔3000毫秒切换 */
+	    	<!-- 分页器 -->
+	    	 pagination: {
+	    		  el: '.swiper-pagination', 
+	    		  clickable :true,        /* 可点击切换 */
+	    		  dynamicBullets: true,   /* 动力球样式 */
+	    		},
+	    	<!-- 导航按钮 上一页下一页 -->
+	    	 navigation: {
+	    		  nextEl: '.swiper-button-next',
+	    		  prevEl: '.swiper-button-prev',
+	    		},
+	    	<!-- 滚动条 -->
+	    	 scrollbar: {
+	    		  el: '.swiper-scrollbar',
+	    		  hide:true,
+	    		},
+	    	/*  设置当鼠标移入图片时是否停止轮播*/
+	    	autoplay: {
+	    		disableOnInteraction: false,
+	    	  },
+	    	  coverflowEffect: {
+	    	      rotate: 30,
+	    	      stretch: 10,
+	    	      depth: 60,
+	    	      modifier: 2,
+	    	      slideShadows : true
+	    	    },
+	    });
+	   /* 翻转效果轮播 */
+	   var mySwiper = new Swiper('#case8', {
+		zomm :true,         //变焦属性，可以放大图片
+	   	loop : true,        //允许从第一张到最后一张，或者从最后一张到第一张  循环属性
+	   	effect : 'flip',  //轮播效果，flip翻转效果
+	   	slidesPerView :2, 
+	   	centeredSlides: true,
+	   	autoplay: true,  //可选选项，自动滑动
+	   	initialSlide :1,//默认显示第二张图片索引从0开始
+	   	speed:3000,//设置过度时间
+	   	/* grabCursor: true,//鼠标样式根据浏览器不同而定 */
+	   	 autoplay : {
+	   		delay:3000
+	   	  },                 /*  设置每隔3000毫秒切换 */
+	   	<!-- 分页器 -->
+	   	 pagination: {
+	   		  el: '.swiper-pagination', 
+	   		  clickable :true,        /* 可点击切换 */
+	   		  dynamicBullets: true,   /* 动力球样式 */
+	   		},
+	   	<!-- 导航按钮 上一页下一页 -->
+	   	 navigation: {
+	   		  nextEl: '.swiper-button-next',
+	   		  prevEl: '.swiper-button-prev',
+	   		},
+	   	<!-- 滚动条 -->
+	   	 scrollbar: {
+	   		  el: '.swiper-scrollbar',
+	   		  hide:true,
+	   		},
+	   	/*  设置当鼠标移入图片时是否停止轮播*/
+	   	autoplay: {
+	   		disableOnInteraction: false,
+	   	  },
+	   	  coverflowEffect: {
+	   	      rotate: 30,
+	   	      stretch: 10,
+	   	      depth: 60,
+	   	      modifier: 2,
+	   	      slideShadows : true
+	   	    },
+	   });
+	</script>
+	</body>
+</html>
